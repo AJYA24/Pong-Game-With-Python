@@ -1,11 +1,11 @@
 import turtle
 import winsound
+import pygame
 
-wn = turtle.Screen()
+wn = pygame.display.set_mode((800, 600))
 
 wn.title("Pong Game")
 wn.bgcolor("black")
-wn.setup(width=800, height=600)
 wn.tracer(0)
 
 # Score
